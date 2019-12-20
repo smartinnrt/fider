@@ -7,21 +7,21 @@ $font-size-large: 16px;
 $font-size-big: 18px;
 $font-size-xlarge: 22px;
 
-$font-site: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, "Helvetica Neue", Helvetica, sans-serif;
-$font-code: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+$font-site: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Arial, "Helvetica Neue", Helvetica, sans-serif;
+$font-code: "SFMono-Regular", Roboto, Consolas, "Liberation Mono", Menlo, Courier, monospace;
 
-$bg-color: #fdfdfd;
+$bg-color: #f9f9f9;
 $white: #fff;
 
 // http://www.colorbox.io
 // Luminosity 98 to 15 with Sine EaseOut
-$gray-darkest: #262626;
-$gray-darker: #5c5c5c;
-$gray-dark: #929292;
-$gray: #c2c2c2;
-$gray-light: #e3e3e3;
-$gray-lighter: #f5f5f5;
-$gray-lightest: #fafafa;
+$gray-darkest: #14171a;
+$gray-darker: #2b2e30;
+$gray-dark: #727476;
+$gray: #dcdcdd;
+$gray-light: #e9e9e9;
+$gray-lighter: #f2f2f2;
+$gray-lightest: #f9f9f9;
 
 $gray-scale: (
   darkest: $gray-darkest,
@@ -81,13 +81,13 @@ $yellow-scale: (
 // Hue 0 to 0 SineEaseOut
 // Saturation 5 to 80 SineEaseOut
 // Luminosity 100 to 40 SineEaseOut
-$red-darkest: #801919;
-$red-darker: #a02323;
-$red-dark: #c13636;
-$red: #dd5858;
-$red-light: #f18989;
-$red-lighter: #fcbfbf;
-$red-lightest: #fff2f2;
+$red-darkest: #d1211a;
+$red-darker: #d52720;
+$red-dark: #da2f26;
+$red: #de342b;
+$red-light: #e3524b;
+$red-lighter: #e8716b;
+$red-lightest: #ef9a95;
 
 $red-scale: (
   darkest: $red-darkest,
@@ -103,13 +103,13 @@ $red-scale: (
 // Hue 220 to 220 SineEaseOut
 // Saturation 5 to 80 SineEaseOut
 // Luminosity 100 to 40 SineEaseOut
-$blue-darkest: #193c80;
-$blue-darker: #234da0;
-$blue-dark: #3664c1;
-$blue: #5885dd;
-$blue-light: #89acf1;
-$blue-lighter: #bfd4fc;
-$blue-lightest: #f2f7ff;
+$blue-darkest: #124cff;
+$blue-darker: #1756ff;
+$blue-dark: #1b61ff;
+$blue: #1f69ff;
+$blue-light: #4180ff;
+$blue-lighter: #6296ff;
+$blue-lightest: #8fb4ff;
 
 $blue-scale: (
   darkest: $blue-darkest,
@@ -121,11 +121,11 @@ $blue-scale: (
   lightest: $blue-lightest,
 );
 
-$main-color: #3b4ade;
-$admin-color: #3b4ade;
-$link-color: #3664c1;
+$main-color: #1f69ff;
+$admin-color: #1f69ff;
+$link-color: #1f69ff;
 
-$orange: #ff9320;
+$orange: #f4b124;
 
 // Queries
 $sm-width: 576px;
